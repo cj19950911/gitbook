@@ -16,15 +16,15 @@
       - [タスクリスト](ise-docs/ise-fun-map/articles/タスクリスト/README.md)
       - [データベース](ise-docs/ise-fun-map/articles/データベース/README.md)
       - [ファイル共有](ise-docs/ise-fun-map/articles/ファイル共有/README.md)
-      - [ファイル共有](ise-docs/ise-fun-map/articles/ライブラリ/README.md)
+      - [ライブラリ](ise-docs/ise-fun-map/articles/ライブラリ/README.md)
       - [レポート](ise-docs/ise-fun-map/articles/レポート/README.md)
       - [ワークフロー](ise-docs/ise-fun-map/articles/ワークフロー/README.md)
       - [共有アドレス帳](ise-docs/ise-fun-map/articles/共有アドレス帳/README.md)
       - [各種設定](ise-docs/ise-fun-map/articles/各種設定/README.md)
-        - 環境設定
+        - [環境設定](ise-docs/ise-fun-map/articles/各種設定/環境設定/README.md)
           * [リッチテキスト設定](ise-docs/ise-fun-map/articles/各種設定/環境設定/リッチテキスト設定.md)
       - [施設・設備](ise-docs/ise-fun-map/articles/施設・設備/README.md)
-      - 設定ファイル
+      - [設定ファイル](ise-docs/ise-fun-map/articles/設定ファイル/README.md)
         * [.base.dat](ise-docs/ise-fun-map/articles/設定ファイル/.base.dat.md)
         * [ria.dat](ise-docs/ise-fun-map/articles/設定ファイル/ria.dat.md)
       - [連絡・通知](ise-docs/ise-fun-map/articles/連絡・通知/README.md)
