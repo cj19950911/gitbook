@@ -1,6 +1,5 @@
 {
  "plugins": [
-    "splitter",
-    "sitemap","anchor-navigation"
+    "splitter","anchor-navigation"
   ]
 }
