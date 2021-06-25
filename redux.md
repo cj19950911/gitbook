@@ -1,4 +1,4 @@
-# Redux in React
+###### # Redux in React
 
 ## Redux
 Redux由Dan Abramov在2015年创建的科技术语。是受2014年Facebook的Flux架构以及函数式编程语言Elm启发。很快，Redux因其简单易学体积小在短时间内成为最热门的前端架构。
@@ -84,25 +84,9 @@ const action = {
 上面代码中，Action 的名称是ADD_TODO，它携带的信息是字符串Learn Redux。*
 
 
-可以这样理解，Action 描述当前发生的事情。改变 State 的唯一办法，就是使用 Action。它会运送数据到 Store。
+可以这样理解，Action 描述当前发生的事情。改变 State 的唯一办法，就是使用 Action。它会运送数据到 Store。###### 
 
-3.4 Action Creator
-View 要发送多少种消息，就会有多少种 Action。如果都手写，会很麻烦。可以定义一个函数来生成 Action，这个函数就叫 Action Creator。
-
-
-const ADD_TODO = '添加 TODO';
-
-function addTodo(text) {
-  return {
-    type: ADD_TODO,
-    text
-  }
-}
-
-const action = addTodo('Learn Redux');
-上面代码中，addTodo函数就是一个 Action Creator。
-
-3.5 store.dispatch()
+### store.dispatch()
 store.dispatch()是 View 发出 Action 的唯一方法。
 
 
@@ -113,13 +97,9 @@ store.dispatch({
   type: 'ADD_TODO',
   payload: 'Learn Redux'
 });
-上面代码中，store.dispatch接受一个 Action 对象作为参数，将它发送出去。
+上面代码中，store.dispatch接受一个 Action 对象作为参数，将它发送出去。### 
 
-结合 Action Creator，这段代码可以改写如下。
-
-
-store.dispatch(addTodo('Learn Redux'));
-3.6 Reducer
+###  Reducer
 Store 收到 Action 以后，必须给出一个新的 State，这样 View 才会发生变化。这种 State 的计算过程就叫做 Reducer。
 
 Reducer 是一个函数，它接受 Action 和当前 State 作为参数，返回一个新的 State。
