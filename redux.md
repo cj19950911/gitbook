@@ -1,4 +1,4 @@
-Redux 入门教程（一）：基本用法
+### Redux in React
 
 一年半前，我写了《React 入门实例教程》，介绍了 React 的基本用法。
 
